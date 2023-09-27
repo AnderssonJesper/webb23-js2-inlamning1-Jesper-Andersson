@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+
+    <link rel="stylesheet" href="/src/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sten Sax Påse</h1>
+
+        <input type="text" id="playerName" placeholder="Ange ditt namn">
+        <div class="play-buttons">
+            <button class="play-button" data-choice="rock">Sten</button>
+            <button class="play-button" data-choice="paper">Påse</button>
+            <button class="play-button" data-choice="scissor">Sax</button>
+
+        </div>
+
+        <div id="playerChoice">Ditt val:</div>
+        <div id="computerChoice">Datorns val:</div>
+        <div id="result"></div>
+        <div id="playerScore">Din poäng: 0</div>
+
+        <h2>Highscore listan</h2>
+        <button id="resetHighscores">Reset Highscores</button>
+
+        <ul id="highscoreList"></ul>
+
+    </div>
+
+
+    <script src="/src/javascript.js"></script>
+</body>
+
+</html>
